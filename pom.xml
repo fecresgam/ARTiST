@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ARTiST</groupId>
-    <artifactId>ARTiST</artifactId>
+    <artifactId>artist-core</artifactId>
     <version>0.01-SNAPSHOT</version>
     <packaging>jar</packaging>
 
