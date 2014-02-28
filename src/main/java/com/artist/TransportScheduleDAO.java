@@ -8,12 +8,19 @@ public enum TransportScheduleDAO
     INSTANCE;
 
 
-    public List<Long> findNext()
+    public List<Integer> findNext(final Country country,
+                                  final Integer companyId,
+                                  final String lineId,
+                                  final String stopId)
     {
 
-        return EMTMadridScrapper.INSTANCE.getData();
-    }
 
+
+        //todo fcres: add factory
+        return EMTMadridScrapper.INSTANCE.retrieveLineETA(lineId, stopId);
+
+    }
+         /*
 
     public Long getRandomTime()
     {
@@ -22,5 +29,5 @@ public enum TransportScheduleDAO
 
 
         return timeD.longValue();
-    }
+    }  */
 }

@@ -33,15 +33,14 @@
     </issueManagement>
 
     <scm>
-        <connection>git://github.com/ryoppei/ARTiST.git</connection>
-        <developerConnection>git://github.com/ryoppei/ARTiST.git</developerConnection>
+        <connection>git://github.com/fecresgam/ARTiST.git</connection>
+        <developerConnection>git://github.com/fecresgam/ARTiST.git</developerConnection>
         <tag>master</tag>
-        <url>http://github.com/ryoppei/ARTiST</url>
+        <url>http://github.com/fecresgam/ARTiST</url>
     </scm>
 
     <dependencies>
         <dependency>
-            <!-- jsoup HTML parser library @ http://jsoup.org/ -->
             <groupId>org.jsoup</groupId>
             <artifactId>jsoup</artifactId>
             <version>1.7.1</version>

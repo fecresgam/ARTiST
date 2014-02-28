@@ -27,7 +27,7 @@ public class EMTMadridScrapperTest
     public void testSearch() {
         final EMTMadridScrapper emtMadridScrapper =
                 EMTMadridScrapper.INSTANCE;
-        final List<Long> data = emtMadridScrapper.getData();
+        final List<Integer> data = emtMadridScrapper.retrieveLineETA("10", "5442");
 
 //        assertTrue(data > 0);
     }
