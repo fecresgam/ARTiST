@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Arrives>
+  <Arrive>
+    <IdStop>2222</IdStop>
+    <idLine>61</idLine>
+    <IsHead>True</IsHead>
+    <Destination>NARVAEZ</Destination>
+    <IdBus>0000</IdBus>
+    <TimeLeftBus>316</TimeLeftBus>
+    <DistanceBus>971</DistanceBus>
+    <PositionXBus>-1</PositionXBus>
+    <PositionYBus>-1</PositionYBus>
+    <PositionTypeBus>1</PositionTypeBus>
+  </Arrive>
+  <Arrive>
+    <IdStop>2222</IdStop>
+    <idLine>26</idLine>
+    <IsHead>True</IsHead>
+    <Destination>TIRSO DE MOLINA</Destination>
+    <IdBus>0000</IdBus>
+    <TimeLeftBus>354</TimeLeftBus>
+    <DistanceBus>687</DistanceBus>
+    <PositionXBus>-1</PositionXBus>
+    <PositionYBus>-1</PositionYBus>
+    <PositionTypeBus>1</PositionTypeBus>
+  </Arrive>
+  <Arrive>
+    <IdStop>2222</IdStop>
+    <idLine>61</idLine>
+    <IsHead>True</IsHead>
+    <Destination>NARVAEZ</Destination>
+    <IdBus>0000</IdBus>
+    <TimeLeftBus>981</TimeLeftBus>
+    <DistanceBus>3834</DistanceBus>
+    <PositionXBus>-1</PositionXBus>
+    <PositionYBus>-1</PositionYBus>
+    <PositionTypeBus>1</PositionTypeBus>
+  </Arrive>
+  <Arrive>
+    <IdStop>2222</IdStop>
+    <idLine>26</idLine>
+    <IsHead>True</IsHead>
+    <Destination>TIRSO DE MOLINA</Destination>
+    <IdBus>0000</IdBus>
+    <TimeLeftBus>999999</TimeLeftBus>
+    <DistanceBus>2748</DistanceBus>
+    <PositionXBus>-1</PositionXBus>
+    <PositionYBus>-1</PositionYBus>
+    <PositionTypeBus>1</PositionTypeBus>
+  </Arrive>
+</Arrives>
