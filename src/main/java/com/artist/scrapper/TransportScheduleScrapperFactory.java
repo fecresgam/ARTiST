@@ -1,4 +1,7 @@
-package com.artist;
+package com.artist.scrapper;
+
+import com.artist.Country;
+import com.artist.scrapper.TransportScheduleScrapper;
 
 import java.util.ResourceBundle;
 

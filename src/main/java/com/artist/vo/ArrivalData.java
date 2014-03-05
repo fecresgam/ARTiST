@@ -1,4 +1,4 @@
-package com.artist;
+package com.artist.vo;
 
 public class ArrivalData
 {

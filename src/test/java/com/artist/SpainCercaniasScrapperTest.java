@@ -1,5 +1,6 @@
 package com.artist;
 
+import com.artist.scrapper.CercaniasScrapper;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -434,10 +435,48 @@ public class SpainCercaniasScrapperTest
 
 
 
-        final List data = scrapper.parse(fake);
+        final List data = scrapper.retrieveArrivalDataList();
 
 //        assertTrue(data > 0);
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @Test
+    public void testRetrieveAllStops() {
+        final CercaniasScrapper scrapper =
+                CercaniasScrapper.INSTANCE;
+
+        final List data = scrapper.retrieveAllStops();
+
+//        assertTrue(data > 0);
+    }
 
 }

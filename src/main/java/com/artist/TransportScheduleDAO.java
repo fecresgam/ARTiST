@@ -1,5 +1,7 @@
 package com.artist;
 
+import com.artist.scrapper.EMTMadridScrapper;
+
 import java.util.List;
 
 public enum TransportScheduleDAO
