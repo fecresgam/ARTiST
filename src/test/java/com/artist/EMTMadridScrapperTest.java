@@ -1,35 +1,40 @@
 package com.artist;
 
 import com.artist.scrapper.EMTMadridScrapper;
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
+import com.artist.vo.ArrivalData;
+import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class EMTMadridScrapperTest
 {
 
-    @BeforeClass
-    public static void testSetup()
-    {
-        //TODO fcres: Review this code
-    }
-
-    @AfterClass
-    public static void testCleanup()
-    {
-        // Teardown for data used by the unit tests
-        //TODO fcres: Review this code
-
-    }
-
     @Test
-    public void testSearch() {
+    public void testRetrieveStopETAList() {
         final EMTMadridScrapper emtMadridScrapper =
                 EMTMadridScrapper.INSTANCE;
-        final List<Integer> data = emtMadridScrapper.retrieveLineETA("10", "5442");
 
-//        assertTrue(data > 0);
+        List<String> lineList = new ArrayList<String>();
+        lineList.add("14");
+        lineList.add("27");
+
+        //TODO fcres: Review this code
+        final List<ArrivalData> data = emtMadridScrapper.retrieveBeginAndLinesETA("5443", lineList);
+        Assert.assertNotNull(data);
     }
+
+
+    @Test
+    public void testRetrieveStopLines() {
+        final EMTMadridScrapper emtMadridScrapper =
+                EMTMadridScrapper.INSTANCE;
+
+        final List<String> lines = emtMadridScrapper.retrieveStopLines("5443");
+        Assert.assertNotNull(lines);
+    }
+
+
+
 }

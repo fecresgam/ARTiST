@@ -1,7 +1,5 @@
 package com.artist;
 
-import com.artist.scrapper.EMTMadridScrapper;
-
 import java.util.List;
 
 public enum TransportScheduleDAO
@@ -19,7 +17,8 @@ public enum TransportScheduleDAO
 
 
         //todo fcres: add factory
-        return EMTMadridScrapper.INSTANCE.retrieveLineETA(lineId, stopId);
+        //return EMTMadridScrapper.INSTANCE.retrieveBeginAndLinesETA(lineId, stopId);
+        return null;
 
     }
          /*
